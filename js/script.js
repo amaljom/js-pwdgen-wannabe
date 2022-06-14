@@ -1,11 +1,10 @@
 const userName = prompt('Inserisci il tuo nome');
-console.log(userName);
-
 const userSurname = prompt('Inserisci il tuo cognome');
-console.log(userSurname);
-
 const userFavouriteColor = prompt('Inserisci il tuo colore preferito');
-console.log(userFavouriteColor);
 
-let userPassword= userName + userSurname + userFavouriteColor + 22
+console.log(userFavouriteColor, userName, userSurname);
+
+const correntYear= '22'
+let userPassword= userName + userSurname + userFavouriteColor + correntYear
+
 document.getElementById('generated-Password').innerHTML = userPassword;
